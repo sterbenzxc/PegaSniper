@@ -51,7 +51,7 @@ async def pegasnipe():
           await channel.send(embed=embed)
           await channel2.send(embed=embed)
           await channel3.send(embed=embed)
-  updatelist(listObj)
+          updatelist(listObj)
 
 @client.event
 async def on_ready():
